@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> María Mena Altamirano </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <ul class="nav-links">
+            <li><a href="#about"> Sobre mí I </a></li>
+            <li><a href="#proyectos"> Proyectos I </a></li>
+            <li><a href="#contacto"> Contacto </a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="name">
+            <img id="avatar" src="/avatar.jpeg" alt="avatar">
+            <h1> María Mena Altamirano <br> Desarrolladora Front-end I Diseñadora UX/UI </h1>
+            <p> mariafernanda0896@hotmail.com </p> <br>
+            <a href="#proyectos" class="btn">Ver Proyectos</a>
+        </section>
+
+        <section id="about">
+            <h2> Sobre Mí </h2>
+            <p> Mi objetivo es construir proyectos que inspiren, resuelvan problemas y dejen una huella positiva en el mundo digital. Creo firmemente en la importancia de la colaboración y estoy siempre buscando nuevos desafíos para seguir creciendo.</p>
+                <div class="hardskills">
+                <img id="javascript" src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="javascript">
+                <img id="html" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="html">
+                <img id="css" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="css">
+                <img id="react" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s" alt="react">
+                <img id="bootstrap" src="https://www.svgrepo.com/show/353498/bootstrap.svg" alt="bootstrap">
+                <img id="figma" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5DSWQaLctn83MpjP8bFLKgJPetELF0TnVdg&s" alt="figma">   
+                </div>  <br>  
+                <a href="/María-Mena-Altamirano-CV.pdf"><button type="button" class="btn"> Link al CV </button></a>
+        </section>
+
+        <section id="proyectos">
+            <h2> Mis Proyectos </h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <a href="https://pinterestclone-hovr0lg28-maria-mena-altamiranos-projects.vercel.app" target="_blank">
+                        <img src="/pinterest-clone.png" alt="pinterest-clone-proyecto">
+                    </a>
+                    <h3> Clon de Pinterest </h3>
+                    <div class="tecnologías-usadas">
+                        <img id="html" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="html">
+                        <img id="css" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="css">
+                    </div>
+                    <p>Recreé la interfaz de Pinterest utilizando HTML y CSS, enfocándome en la organización visual y diseño responsive para simular la experiencia de usuario de la plataforma. </p>
+                    <a href="https://github.com/mari-blooming/pinterestClone"><button class="btn"> Ver Repostorio </button></a>
+                </div>
+                <div class="project-card">
+                    <a href="https://blackjack-one-gamma.vercel.app" target="_blank">
+                        <img src="/blackjack-proyecto.png" alt="blackjack-proyecto">
+                    </a>
+                    <h3> BlackJack </h3>
+                    <div class="tecnologías-usadas">
+                        <img id="javascript" src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="javascript">
+                        <img id="html" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="html">
+                        <img id="css" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="css">
+                        <img id="bootstrap" src="https://www.svgrepo.com/show/353498/bootstrap.svg" alt="bootstrap">
+                    </div>
+                    <p> Desarrollé una versión interactiva del juego BlackJack, implementando validaciones de seguridad para prevenir trampas incluso desde la consola, reforzando mis habilidades en lógica y manejo de eventos. </p>
+                    <a href="https://github.com/mari-blooming/blackjack"><button class="btn"> Ver Repostorio </button></a>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2> Contacta conmigo </h2>
+            <form id="contact-form">
+                <label for="name-contact">Nombre:</label>
+                <input type="text" id="name-contact" name="name-contact" required>
+        
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Mensaje<span class="obligatorio">*</span></label>
+                <textarea id="message" name="mensaje" rows="4" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="redes-sociales">
+            <h3> Mis redes sociales </h3>
+            <a href="https://www.linkedin.com/in/maria-mena-altamirano/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="linkedin"></a>
+            <a href="https://github.com/mari-blooming"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGQutRu7S9lsuw3G53oa6oU7maGvbUe1lU1g&s" alt="github"></a>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+
+
